@@ -16,7 +16,7 @@ def main():
             if (mt.pow(circleX, 2) + mt.pow(circleY, 2) == mt.pow(circleRadius, 2) or (mt.pow(circleX, 2) + mt.pow(circleY, 2) <= (mt.pow(circleRadius, 2) + circleRadius // 2))):
                 lisCircle.append(caracter);    
             else:
-                lisCircle.append(" ");
+                lisCircle.append(" "*len(caracter));
 
             circleX += 1;
             
