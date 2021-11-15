@@ -14,7 +14,7 @@ def main():
     for y in range(0, 2 * circleRadius + 1):
         for x in range(0, 2 * circleRadius + 1):     
             if (mt.pow(circleX, 2) + mt.pow(circleY, 2) == mt.pow(circleRadius, 2) or (mt.pow(circleX, 2) + mt.pow(circleY, 2) <= (mt.pow(circleRadius, 2) + circleRadius // 2))):
-                lisCircle.append(str(caracter));    
+                lisCircle.append(caracter);    
             else:
                 lisCircle.append(" ");
 
